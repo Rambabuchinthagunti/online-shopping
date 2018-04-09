@@ -11,8 +11,16 @@
   <url>http://maven.apache.org</url>
 
   <properties>
+  	<javaee.version>8.0</javaee.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
+  
+  <dependency>
+			<groupId>javax</groupId>
+			<artifactId>javaee-api</artifactId>
+			<version>${javaee.version}</version>
+			<scope>provided</scope>
+		</dependency>
 
   <dependencies>
     <dependency>
