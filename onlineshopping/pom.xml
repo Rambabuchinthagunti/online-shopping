@@ -23,6 +23,12 @@
 			<artifactId>commons-logging</artifactId>
 			<version>${commons.version}</version>
 		</dependency>
+	<!-- shopping backend -->
+		<dependency>
+			<groupId>com.online</groupId>
+			<artifactId>shoppingbackend</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
 		<!-- JAVAEE -->
 		<dependency>
 			<groupId>javax</groupId>
